@@ -1,6 +1,6 @@
 # License Status: Moving Array Traffic Probes
 
-Generated: 2026-05-20 15:32:54 AEST
+Generated: 2026-05-21 20:57:23 AEST
 
 No publication-level open license clue was detected automatically.
 
