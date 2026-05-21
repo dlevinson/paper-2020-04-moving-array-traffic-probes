@@ -11,7 +11,7 @@
 
 ## Archive Status
 
-- Pipeline: `READY-TO-UPLOAD/PUBLIC`
+- Pipeline: `UPLOADED`
 - Upload action: `code_only_candidate`
 - Packaging status: `ready_to_package_review`
 - Rights status: `likely_clear_with_provenance`
@@ -61,7 +61,7 @@ Updated: 2026-05-20 11:43:00 AEST
 
 Generated: 2026-05-22 07:46:52 AEST
 
-- Pipeline: `READY-TO-UPLOAD/PUBLIC`
+- Pipeline: `UPLOADED`
 - Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
 - Public paper-package repositories include `paper/` PDF reference copies by owner decision; publisher takedown requests can be handled later if they arise.
 - Final GitHub upload should use the manifest include statuses and the license-status note.
