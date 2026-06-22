@@ -1,5 +1,9 @@
 # Moving Array Traffic Probes
 
+## Contribution
+
+This paper evaluates autonomous vehicles as moving arrays of traffic sensors rather than merely as individual floating-car probes. NetLogo experiments quantify errors in density, speed, and flow, showing that sparse probes can remain useful, limited visibility need not proportionally reduce accuracy, and oncoming traffic may be measured more accurately than same-direction traffic.
+
 ## Bibliographic Information
 
 - Row ID: `paper-2020-04`
