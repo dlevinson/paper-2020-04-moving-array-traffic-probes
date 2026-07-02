@@ -1,6 +1,6 @@
 # Package Status: Moving Array Traffic Probes
 
-Generated: 2026-05-22 07:46:52 AEST
+Generated: 2026-07-02 12:22:11 AEST
 
 ## Audit State
 
@@ -15,7 +15,7 @@ Generated: 2026-05-22 07:46:52 AEST
 
 ## Package Checks
 
-- Files in manifest: 14
+- Files in manifest: 15
 - Paper reference files: 2
 - Code candidates: 4
 - Data candidates: 0
@@ -26,4 +26,5 @@ Generated: 2026-05-22 07:46:52 AEST
 
 - Use `PACKAGE_MANIFEST.csv` as the upload checklist.
 - Include `paper/` PDF reference copies in public paper-package repositories by owner decision; publisher takedown requests can be handled later if they arise.
-- Confirm finality and license before repository creation.
+- The root `LICENSE` preserves CC BY-NC-SA 3.0 for adapted NetLogo Traffic 2 Lanes model files under `code/netlogo/` and applies CC BY 4.0 to author-created repository documentation and metadata outside those model files.
+- No data files are staged; zero-byte Dropbox placeholders and excluded source folders remain outside the package.
