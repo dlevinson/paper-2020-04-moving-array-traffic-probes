@@ -28,6 +28,7 @@ This is a code-focused package for the NetLogo simulation workflows used in the 
 
 Included local artifacts:
 
+- `LICENSE`
 - `code/netlogo/1 Probe 1 Direction.nlogo`
 - `code/netlogo/1 Probe 2 Direction.nlogo`
 - `code/netlogo/50percent density.nlogo`
@@ -52,21 +53,27 @@ The staged package supports model-level replication and inspection of the NetLog
 - Zero-byte cloud placeholders discovered in Dropbox paths were not treated as usable source files and were excluded from package payload decisions.
 - No third-party raw datasets were copied into this package.
 
+## License And Provenance Boundary
+
+The staged `.nlogo` files adapt the NetLogo Traffic 2 Lanes model by Wilensky and Payette. Because those model files retain embedded CC BY-NC-SA 3.0 copyright and license notices, the root `LICENSE` preserves that same CC BY-NC-SA 3.0 boundary for the adapted NetLogo model files and paper-specific modifications to the extent controlled by the paper authors or repository maintainers. No blanket permissive software license is granted for those `.nlogo` files because the documented noncommercial/share-alike obligation takes precedence.
+
+Author-created repository documentation, package metadata, source-decision notes, manifests, and public reference metadata outside the `.nlogo` files are licensed under CC BY 4.0. The publication PDF under `paper/` retains its publication and article-license terms. The repository license does not relicense the original NetLogo software/runtime, original Traffic 2 Lanes model content beyond its embedded terms, zero-byte Dropbox placeholders, excluded source folders, raw simulation outputs if later found, or other third-party/external materials.
+
 ## Minimum Upload Checklist
 
 1. Keep upload selections aligned with `PACKAGE_MANIFEST.csv` include statuses.
-2. Add an explicit repository license for author-created code before public release.
+2. Preserve the root license boundary for the adapted NetLogo models and repository documentation.
 3. Keep `paper/` files as local reference copies unless rights review changes that boundary.
 
-Updated: 2026-05-20 11:43:00 AEST
+Updated: 2026-07-02 12:22:11 AEST
 
 <!-- package-hardening-status:start -->
 ## Package Hardening Status
 
-Generated: 2026-05-22 07:46:52 AEST
+Generated: 2026-07-02 12:22:11 AEST
 
 - Pipeline: `UPLOADED`
-- Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
+- Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`, `LICENSE`.
 - Public paper-package repositories include `paper/` PDF reference copies by owner decision; publisher takedown requests can be handled later if they arise.
-- Final GitHub upload should use the manifest include statuses and the license-status note.
+- Final GitHub upload should use the manifest include statuses and root license boundary.
 <!-- package-hardening-status:end -->

@@ -1,0 +1,62 @@
+Repository License And Provenance Boundary
+
+Copyright (c) 2020-2026 Blake Davis, Ang Ji, Bichen Liu, David M.
+Levinson, and repository contributors
+
+This repository is a mixed research package. It contains adapted NetLogo
+Traffic 2 Lanes model files plus repository documentation and metadata. The
+license boundaries below apply only to materials that the paper authors or
+repository maintainers have rights to license. They do not relicense the
+publication PDF, the NetLogo software/runtime, original third-party model
+library content beyond its stated terms, source folders outside this package,
+or other third-party materials.
+
+## NetLogo Model Files: CC BY-NC-SA 3.0 Boundary
+
+The files under `code/netlogo/` are adapted from the NetLogo Traffic 2 Lanes
+model and retain embedded copyright and license notices for Uri Wilensky and
+the Center for Connected Learning and Computer-Based Modeling.
+
+Those `.nlogo` model files, including the paper-specific additions and
+modifications to the extent controlled by the paper authors or repository
+maintainers, are made available under the same Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 License (CC BY-NC-SA 3.0) boundary
+preserved in the model files:
+
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Commercial licensing for the underlying Traffic 2 Lanes model, if needed,
+must be obtained from the original rights holder identified in the embedded
+model notices. This repository does not grant a separate permissive software
+license for the adapted `.nlogo` files because the documented
+noncommercial/share-alike obligation takes precedence.
+
+## Repository Documentation And Metadata: CC BY 4.0
+
+Author-created repository documentation, package metadata, source-decision
+notes, code manifests, public reference metadata, package manifests, and
+rights-cleared derived package metadata outside the `.nlogo` model files are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/
+
+## Materials Not Relicensed
+
+This repository license does not apply to:
+
+- The publication PDF under `paper/`, which retains its publication and
+  article-license terms.
+- The original NetLogo Traffic 2 Lanes model content except under its embedded
+  CC BY-NC-SA 3.0 terms and any commercial-license option stated there.
+- The NetLogo software/runtime, NetLogo model library, application metadata,
+  or vendor/runtime/file-format structures.
+- Zero-byte Dropbox placeholders, local source folders outside this staged
+  package, excluded manuscript/figure files, raw simulation outputs if later
+  found, and other third-party or externally controlled materials.
+
+## Data Boundary
+
+No data files are staged in this repository. The package contains NetLogo
+model files, repository documentation/metadata, and a local paper reference
+copy only.
